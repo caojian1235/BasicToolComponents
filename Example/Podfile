@@ -1,0 +1,13 @@
+use_frameworks!
+
+platform :ios, '9.0'
+
+target 'BasicToolComponents_Example' do
+  pod 'BasicToolComponents', :path => '../'
+
+  target 'BasicToolComponents_Tests' do
+    inherit! :search_paths
+
+    
+  end
+end
