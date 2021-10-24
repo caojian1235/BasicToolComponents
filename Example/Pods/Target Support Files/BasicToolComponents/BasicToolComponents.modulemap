@@ -1,0 +1,6 @@
+framework module BasicToolComponents {
+  umbrella header "BasicToolComponents-umbrella.h"
+
+  export *
+  module * { export * }
+}

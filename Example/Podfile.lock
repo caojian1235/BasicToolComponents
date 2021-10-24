@@ -1,0 +1,121 @@
+PODS:
+  - BasicToolComponents (0.1.0):
+    - BasicToolComponents/Alert (= 0.1.0)
+    - BasicToolComponents/BaseVC (= 0.1.0)
+    - BasicToolComponents/Category (= 0.1.0)
+    - BasicToolComponents/Loading (= 0.1.0)
+    - BasicToolComponents/NSLogHelper (= 0.1.0)
+    - BasicToolComponents/XHLaunchAd (= 0.1.0)
+    - BasicToolComponents/YBImageBrowser (= 0.1.0)
+    - BasicToolComponents/ZZJsonToModel (= 0.1.0)
+    - LYEmptyView
+    - Masonry (~> 1.1.0)
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - YYKit
+  - BasicToolComponents/Alert (0.1.0):
+    - LYEmptyView
+    - Masonry (~> 1.1.0)
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - YYKit
+  - BasicToolComponents/BaseVC (0.1.0):
+    - GKNavigationBar
+    - LYEmptyView
+    - Masonry (~> 1.1.0)
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - YYKit
+  - BasicToolComponents/Category (0.1.0):
+    - LYEmptyView
+    - Masonry (~> 1.1.0)
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - YYKit
+  - BasicToolComponents/Loading (0.1.0):
+    - LYEmptyView
+    - Masonry (~> 1.1.0)
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - YYKit
+  - BasicToolComponents/NSLogHelper (0.1.0):
+    - LYEmptyView
+    - Masonry (~> 1.1.0)
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - YYKit
+  - BasicToolComponents/XHLaunchAd (0.1.0):
+    - LYEmptyView
+    - Masonry (~> 1.1.0)
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - YYKit
+  - BasicToolComponents/YBImageBrowser (0.1.0):
+    - LYEmptyView
+    - Masonry (~> 1.1.0)
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - YYKit
+  - BasicToolComponents/ZZJsonToModel (0.1.0):
+    - LYEmptyView
+    - Masonry (~> 1.1.0)
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - YYKit
+  - GKNavigationBar (1.6.0):
+    - GKNavigationBar/GestureHandle (= 1.6.0)
+    - GKNavigationBar/NavigationBar (= 1.6.0)
+  - GKNavigationBar/GestureHandle (1.6.0)
+  - GKNavigationBar/NavigationBar (1.6.0)
+  - LYEmptyView (1.3.1)
+  - Masonry (1.1.0)
+  - MBProgressHUD (1.2.0)
+  - MJRefresh (3.7.2)
+  - SDWebImage (5.12.1):
+    - SDWebImage/Core (= 5.12.1)
+  - SDWebImage/Core (5.12.1)
+  - YYKit (1.0.9):
+    - YYKit/no-arc (= 1.0.9)
+  - YYKit/no-arc (1.0.9)
+
+DEPENDENCIES:
+  - BasicToolComponents (from `../`)
+  - GKNavigationBar
+  - YYKit
+
+SPEC REPOS:
+  trunk:
+    - GKNavigationBar
+    - LYEmptyView
+    - Masonry
+    - MBProgressHUD
+    - MJRefresh
+    - SDWebImage
+    - YYKit
+
+EXTERNAL SOURCES:
+  BasicToolComponents:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  BasicToolComponents: 57e24b32f5e53806dccaff1788e065010ccf11ea
+  GKNavigationBar: 777b10cebaa1026d9aa392859c42e389895eb744
+  LYEmptyView: b6d418cfa38b78df0cf243f9a9c25ccbdc399922
+  Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
+  MBProgressHUD: 3ee5efcc380f6a79a7cc9b363dd669c5e1ae7406
+  MJRefresh: 30997d30b347c8e9508a4db11e3a690da0c9b85a
+  SDWebImage: 4dc3e42d9ec0c1028b960a33ac6b637bb432207b
+  YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7
+
+PODFILE CHECKSUM: d604929857886f0b523ee318e24b389f056fc27d
+
+COCOAPODS: 1.11.2

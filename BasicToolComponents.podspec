@@ -9,7 +9,7 @@
 Pod::Spec.new do |s|
   s.name             = 'BasicToolComponents'
   s.version          = '0.1.0'
-  s.summary          = 'A short description of BasicToolComponents.'
+  s.summary          = '基本组件'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -32,11 +32,53 @@ TODO: Add long description of the pod here.
 
   s.source_files = 'BasicToolComponents/Classes/**/*'
   
+  s.subspec 'Category' do |category|
+        category.source_files = 'BasicToolComponents/Classes/Category/**/*'
+        category.dependency 'YYKit'
+    end
+  s.subspec 'Alert' do |alert|
+      alert.source_files = 'BasicToolComponents/Classes/Alert/**/*'
+    end
+  s.subspec 'BaseVC' do |baseVC|
+      baseVC.source_files = 'BasicToolComponents/Classes/BaseVC/**/*'
+      baseVC.dependency 'GKNavigationBar'
+      
+    end
+  
+  s.subspec 'NSLogHelper' do |nsLogHelper|
+      nsLogHelper.source_files = 'BasicToolComponents/Classes/NSLogHelper/**/*'
+      
+    end
+  
+  s.subspec 'XHLaunchAd' do |xhLaunchAd|
+      xhLaunchAd.source_files = 'BasicToolComponents/Classes/XHLaunchAd/**/*'
+      
+    end
+  
+  s.subspec 'YBImageBrowser' do |ybimageBrowser|
+      ybimageBrowser.source_files = 'BasicToolComponents/Classes/YBImageBrowser/**/*'
+      
+    end
+  s.subspec 'ZZJsonToModel' do |zzjsonToModel|
+      zzjsonToModel.source_files = 'BasicToolComponents/Classes/ZZJsonToModel/**/*'
+      
+    end
+  s.subspec 'Loading' do |loading|
+      loading.source_files = 'BasicToolComponents/Classes/Loading/**/*'
+      
+    end
+  s.dependency 'MJRefresh'
+  s.dependency 'LYEmptyView'
+  s.dependency 'Masonry', '~> 1.1.0'
+  s.dependency 'SDWebImage'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'YYKit'
   # s.resource_bundles = {
   #   'BasicToolComponents' => ['BasicToolComponents/Assets/*.png']
   # }
-
+  s.prefix_header_contents ='#import "BasicToolComponents.pch"'
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
-  # s.dependency 'AFNetworking', '~> 2.3'
+#   s.dependency 'AFNetworking', '~> 2.3'
+   
 end

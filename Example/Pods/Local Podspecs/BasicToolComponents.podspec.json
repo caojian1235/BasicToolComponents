@@ -1,0 +1,87 @@
+{
+  "name": "BasicToolComponents",
+  "version": "0.1.0",
+  "summary": "基本组件",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/caojian1235/BasicToolComponents",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "caojian1235": "404511077@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/caojian1235/BasicToolComponents.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source_files": "BasicToolComponents/Classes/**/*",
+  "dependencies": {
+    "MJRefresh": [
+
+    ],
+    "LYEmptyView": [
+
+    ],
+    "Masonry": [
+      "~> 1.1.0"
+    ],
+    "SDWebImage": [
+
+    ],
+    "MBProgressHUD": [
+
+    ],
+    "YYKit": [
+
+    ]
+  },
+  "prefix_header_contents": "#import \"BasicToolComponents.pch\"",
+  "subspecs": [
+    {
+      "name": "Category",
+      "source_files": "BasicToolComponents/Classes/Category/**/*",
+      "dependencies": {
+        "YYKit": [
+
+        ]
+      }
+    },
+    {
+      "name": "Alert",
+      "source_files": "BasicToolComponents/Classes/Alert/**/*"
+    },
+    {
+      "name": "BaseVC",
+      "source_files": "BasicToolComponents/Classes/BaseVC/**/*",
+      "dependencies": {
+        "GKNavigationBar": [
+
+        ]
+      }
+    },
+    {
+      "name": "NSLogHelper",
+      "source_files": "BasicToolComponents/Classes/NSLogHelper/**/*"
+    },
+    {
+      "name": "XHLaunchAd",
+      "source_files": "BasicToolComponents/Classes/XHLaunchAd/**/*"
+    },
+    {
+      "name": "YBImageBrowser",
+      "source_files": "BasicToolComponents/Classes/YBImageBrowser/**/*"
+    },
+    {
+      "name": "ZZJsonToModel",
+      "source_files": "BasicToolComponents/Classes/ZZJsonToModel/**/*"
+    },
+    {
+      "name": "Loading",
+      "source_files": "BasicToolComponents/Classes/Loading/**/*"
+    }
+  ]
+}

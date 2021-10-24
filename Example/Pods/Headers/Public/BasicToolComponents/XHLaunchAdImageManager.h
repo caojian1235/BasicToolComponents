@@ -1,0 +1,1 @@
+../../../../../BasicToolComponents/Classes/XHLaunchAd/XHLaunchAd/XHLaunchAdImageManager.h

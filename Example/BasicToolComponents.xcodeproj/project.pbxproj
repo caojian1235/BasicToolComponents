@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ED8EFE9600B7230F6BC5207 /* Pods_BasicToolComponents_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B00B1567E1F2B31E43330A25 /* Pods_BasicToolComponents_Tests.framework */; };
+		0F1FC9A849F8B14B753D71BB /* libPods-BasicToolComponents_Tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = E6B3D656942B961D5EF62717 /* libPods-BasicToolComponents_Tests.a */; };
 		6003F58E195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
 		6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58F195388D20070C39A /* CoreGraphics.framework */; };
 		6003F592195388D20070C39A /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F591195388D20070C39A /* UIKit.framework */; };
@@ -23,7 +23,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
-		8ED9A61FB63F422E4FA65F34 /* Pods_BasicToolComponents_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 7F22C9639E5C25BA89333B1F /* Pods_BasicToolComponents_Example.framework */; };
+		BB8F9FD7C8906DAAE50F642C /* libPods-BasicToolComponents_Example.a in Frameworks */ = {isa = PBXBuildFile; fileRef = CC159D96C2D096CBF7AEC74C /* libPods-BasicToolComponents_Example.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,9 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		149CDE7306D48B02A3A81D90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		149CDE7306D48B02A3A81D90 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 		45C7EDFE5AB47D86F3339E7B /* Pods-BasicToolComponents_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicToolComponents_Tests.debug.xcconfig"; path = "Target Support Files/Pods-BasicToolComponents_Tests/Pods-BasicToolComponents_Tests.debug.xcconfig"; sourceTree = "<group>"; };
-		5D20BC9E1F3A5330EB16D8C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		5D20BC9E1F3A5330EB16D8C8 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* BasicToolComponents_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = BasicToolComponents_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -62,11 +62,12 @@
 		6FA6511BAA6E82904FA2AFB4 /* Pods-BasicToolComponents_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicToolComponents_Example.release.xcconfig"; path = "Target Support Files/Pods-BasicToolComponents_Example/Pods-BasicToolComponents_Example.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		7D35F92275603DEBE7F3787D /* Pods-BasicToolComponents_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicToolComponents_Example.debug.xcconfig"; path = "Target Support Files/Pods-BasicToolComponents_Example/Pods-BasicToolComponents_Example.debug.xcconfig"; sourceTree = "<group>"; };
-		7F22C9639E5C25BA89333B1F /* Pods_BasicToolComponents_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasicToolComponents_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		B00B1567E1F2B31E43330A25 /* Pods_BasicToolComponents_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_BasicToolComponents_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		C3977B95B6AEBFAB90B234C6 /* BasicToolComponents.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = BasicToolComponents.podspec; path = ../BasicToolComponents.podspec; sourceTree = "<group>"; };
+		C3977B95B6AEBFAB90B234C6 /* BasicToolComponents.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = BasicToolComponents.podspec; path = ../BasicToolComponents.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		C453D13889D2D26BACAEAA54 /* Pods-BasicToolComponents_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-BasicToolComponents_Tests.release.xcconfig"; path = "Target Support Files/Pods-BasicToolComponents_Tests/Pods-BasicToolComponents_Tests.release.xcconfig"; sourceTree = "<group>"; };
+		CC159D96C2D096CBF7AEC74C /* libPods-BasicToolComponents_Example.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasicToolComponents_Example.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6B3D656942B961D5EF62717 /* libPods-BasicToolComponents_Tests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-BasicToolComponents_Tests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FDA7700C272556710063D849 /* BasicToolComponents.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = BasicToolComponents.pch; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +78,7 @@
 				6003F590195388D20070C39A /* CoreGraphics.framework in Frameworks */,
 				6003F592195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F58E195388D20070C39A /* Foundation.framework in Frameworks */,
-				8ED9A61FB63F422E4FA65F34 /* Pods_BasicToolComponents_Example.framework in Frameworks */,
+				BB8F9FD7C8906DAAE50F642C /* libPods-BasicToolComponents_Example.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -88,7 +89,7 @@
 				6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */,
 				6003F5B2195388D20070C39A /* UIKit.framework in Frameworks */,
 				6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */,
-				0ED8EFE9600B7230F6BC5207 /* Pods_BasicToolComponents_Tests.framework in Frameworks */,
+				0F1FC9A849F8B14B753D71BB /* libPods-BasicToolComponents_Tests.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +124,8 @@
 				6003F58F195388D20070C39A /* CoreGraphics.framework */,
 				6003F591195388D20070C39A /* UIKit.framework */,
 				6003F5AF195388D20070C39A /* XCTest.framework */,
-				7F22C9639E5C25BA89333B1F /* Pods_BasicToolComponents_Example.framework */,
-				B00B1567E1F2B31E43330A25 /* Pods_BasicToolComponents_Tests.framework */,
+				CC159D96C2D096CBF7AEC74C /* libPods-BasicToolComponents_Example.a */,
+				E6B3D656942B961D5EF62717 /* libPods-BasicToolComponents_Tests.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -134,6 +135,7 @@
 			children = (
 				6003F59C195388D20070C39A /* BTCAppDelegate.h */,
 				6003F59D195388D20070C39A /* BTCAppDelegate.m */,
+				FDA7700C272556710063D849 /* BasicToolComponents.pch */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
 				6003F5A5195388D20070C39A /* BTCViewController.h */,
 				6003F5A6195388D20070C39A /* BTCViewController.m */,
@@ -193,7 +195,6 @@
 				45C7EDFE5AB47D86F3339E7B /* Pods-BasicToolComponents_Tests.debug.xcconfig */,
 				C453D13889D2D26BACAEAA54 /* Pods-BasicToolComponents_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -208,7 +209,7 @@
 				6003F586195388D20070C39A /* Sources */,
 				6003F587195388D20070C39A /* Frameworks */,
 				6003F588195388D20070C39A /* Resources */,
-				56580A285C846DE7E18F8B39 /* [CP] Embed Pods Frameworks */,
+				538D05EDF473A04D8AF6C696 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -258,6 +259,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -295,22 +297,24 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		56580A285C846DE7E18F8B39 /* [CP] Embed Pods Frameworks */ = {
+		538D05EDF473A04D8AF6C696 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
-				"${PODS_ROOT}/Target Support Files/Pods-BasicToolComponents_Example/Pods-BasicToolComponents_Example-frameworks.sh",
-				"${BUILT_PRODUCTS_DIR}/BasicToolComponents/BasicToolComponents.framework",
+				"${PODS_ROOT}/Target Support Files/Pods-BasicToolComponents_Example/Pods-BasicToolComponents_Example-resources.sh",
+				"${PODS_ROOT}/GKNavigationBar/GKNavigationBar/NavigationBar/GKNavigationBar.bundle",
+				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
-			name = "[CP] Embed Pods Frameworks";
+			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/BasicToolComponents.framework",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GKNavigationBar.bundle",
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BasicToolComponents_Example/Pods-BasicToolComponents_Example-frameworks.sh\"\n";
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-BasicToolComponents_Example/Pods-BasicToolComponents_Example-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B0883330B91FB3877E9E40FB /* [CP] Check Pods Manifest.lock */ = {

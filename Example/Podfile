@@ -1,10 +1,11 @@
-use_frameworks!
+#use_frameworks!
 
 platform :ios, '9.0'
 
 target 'BasicToolComponents_Example' do
   pod 'BasicToolComponents', :path => '../'
-
+  pod 'YYKit'
+  pod 'GKNavigationBar'
   target 'BasicToolComponents_Tests' do
     inherit! :search_paths
 
