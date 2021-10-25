@@ -67,13 +67,7 @@ TODO: Add long description of the pod here.
 #      loading.source_files = 'BasicToolComponents/Classes/Loading/**/*'
 #
 #    end
-  s.dependency 'GKNavigationBar'
-  s.dependency 'MJRefresh'
-  s.dependency 'LYEmptyView'
-  s.dependency 'Masonry', '~> 1.1.0'
-  s.dependency 'SDWebImage'
-  s.dependency 'MBProgressHUD'
-  s.dependency 'YYKit'
+ 
   # s.resource_bundles = {
   #   'BasicToolComponents' => ['BasicToolComponents/Assets/*.png']
   # }
@@ -94,7 +88,13 @@ TODO: Add long description of the pod here.
 
 
   EOS
-
+  s.dependency 'GKNavigationBar'
+  s.dependency 'MJRefresh'
+  s.dependency 'LYEmptyView'
+  s.dependency 'Masonry', '~> 1.1.0'
+  s.dependency 'SDWebImage'
+  s.dependency 'MBProgressHUD'
+  s.dependency 'YYKit'
 
 #  s.prefix_header_contents ='#import "BasicToolComponents.pch"'
   # s.public_header_files = 'Pod/Classes/**/*.h'
