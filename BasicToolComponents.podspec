@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'BasicToolComponents/Classes/**/*'
+#  s.source_files = 'BasicToolComponents/Classes/**/*'
   s.resources = ['BasicToolComponents/Assets/*']
 #  s.subspec 'Category' do |category|
 #        category.source_files = 'BasicToolComponents/Classes/Category/**/*'
