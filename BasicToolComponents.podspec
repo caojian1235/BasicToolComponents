@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BasicToolComponents'
-  s.version          = '0.2.3'
+  s.version          = '0.2.4'
   s.summary          = '基本组件'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-#  s.source_files = 'BasicToolComponents/Classes/**/*'
+  s.source_files = 'BasicToolComponents/Classes/**/*'
   
 #  s.subspec 'Category' do |category|
 #        category.source_files = 'BasicToolComponents/Classes/Category/**/*'
@@ -76,32 +76,32 @@ TODO: Add long description of the pod here.
   # s.resource_bundles = {
   #   'BasicToolComponents' => ['BasicToolComponents/Assets/*.png']
   # }
-#  s.prefix_header_contents = <<-EOS
-#
-#  #ifdef __OBJC__
-#
-#  #import <GKNavigationBar/GKNavigationBar.h>
-#  #import <MJRefresh/MJRefresh.h>
-#  #import <LYEmptyView/LYEmptyViewHeader.h>
-#  #import <Masonry/Masonry.h>
-#  #import <MBProgressHUD/MBProgressHUD.h>
-#  #import <YYKit/YYKit.h>
-#  #import "YSKDefineMacro.pch"
-#  #import "UIButton+Extra.h"
-#  #import "UILabel+Extra.h"
-#  #import "UITextView+Extra.h"
-#  #import "NSString+Extra.h"
-#  #import "UIImage+Extra.h"
-#  #import "UIView+Extra.h"
-#  #import "UIView+TrackPoint.h"
-#  #import "UIScrollView+Extension.h"
-#  #import "ZSZHUD.h"
-#
-#  #endif /* __OBJC__*/
-#
-#
-#
-#  EOS
+  s.prefix_header_contents = <<-EOS
+
+  #ifdef __OBJC__
+
+  #import <GKNavigationBar/GKNavigationBar.h>
+  #import <MJRefresh/MJRefresh.h>
+  #import <LYEmptyView/LYEmptyViewHeader.h>
+  #import <Masonry/Masonry.h>
+  #import <MBProgressHUD/MBProgressHUD.h>
+  #import <YYKit/YYKit.h>
+  #import "YSKDefineMacro.pch"
+  #import "UIButton+Extra.h"
+  #import "UILabel+Extra.h"
+  #import "UITextView+Extra.h"
+  #import "NSString+Extra.h"
+  #import "UIImage+Extra.h"
+  #import "UIView+Extra.h"
+  #import "UIView+TrackPoint.h"
+  #import "UIScrollView+Extension.h"
+  #import "ZSZHUD.h"
+
+  #endif /* __OBJC__*/
+
+
+
+  EOS
 
 
 #  s.prefix_header_contents ='#import "BasicToolComponents.pch"'
