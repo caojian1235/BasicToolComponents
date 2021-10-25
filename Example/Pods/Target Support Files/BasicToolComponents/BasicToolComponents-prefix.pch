@@ -18,6 +18,5 @@
 #import <Masonry/Masonry.h>
 #import <MBProgressHUD/MBProgressHUD.h>
 #import <YYKit/YYKit.h>
-#import "YSKDefineMacro.pch"
 
 #endif /* __OBJC__*/

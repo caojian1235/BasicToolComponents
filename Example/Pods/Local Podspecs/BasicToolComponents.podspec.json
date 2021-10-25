@@ -19,7 +19,7 @@
     "ios": "9.0"
   },
   "source_files": "BasicToolComponents/Classes/**/*",
-  "prefix_header_contents": "#ifdef __OBJC__\n\n#import <GKNavigationBar/GKNavigationBar.h>\n#import <MJRefresh/MJRefresh.h>\n#import <LYEmptyView/LYEmptyViewHeader.h>\n#import <Masonry/Masonry.h>\n#import <MBProgressHUD/MBProgressHUD.h>\n#import <YYKit/YYKit.h>\n#import \"YSKDefineMacro.pch\"\n\n#endif /* __OBJC__*/",
+  "prefix_header_contents": "#ifdef __OBJC__\n\n#import <GKNavigationBar/GKNavigationBar.h>\n#import <MJRefresh/MJRefresh.h>\n#import <LYEmptyView/LYEmptyViewHeader.h>\n#import <Masonry/Masonry.h>\n#import <MBProgressHUD/MBProgressHUD.h>\n#import <YYKit/YYKit.h>\n\n#endif /* __OBJC__*/",
   "dependencies": {
     "GKNavigationBar": [
 

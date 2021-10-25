@@ -81,7 +81,6 @@ TODO: Add long description of the pod here.
   #import <Masonry/Masonry.h>
   #import <MBProgressHUD/MBProgressHUD.h>
   #import <YYKit/YYKit.h>
-  #import "YSKDefineMacro.pch"
 
   #endif /* __OBJC__*/
   EOS
