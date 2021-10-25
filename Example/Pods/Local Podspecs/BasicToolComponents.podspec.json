@@ -38,7 +38,6 @@
 
     ]
   },
-  "prefix_header_contents": "#ifdef __OBJC__\n\n#import <GKNavigationBar/GKNavigationBar.h>\n#import <MJRefresh/MJRefresh.h>\n#import <LYEmptyView/LYEmptyViewHeader.h>\n#import <Masonry/Masonry.h>\n#import <MBProgressHUD/MBProgressHUD.h>\n#import <YYKit/YYKit.h>\n#import \"YSKDefineMacro.pch\"\n#import \"UIButton+Extra.h\"\n#import \"UILabel+Extra.h\"\n#import \"UITextView+Extra.h\"\n#import \"NSString+Extra.h\"\n#import \"UIImage+Extra.h\"\n#import \"UIView+Extra.h\"\n#import \"UIView+TrackPoint.h\"\n#import \"UIScrollView+Extension.h\"\n#import \"ZSZHUD.h\"\n\n#endif /* __OBJC__*/",
   "subspecs": [
     {
       "name": "ZZJsonToModel",
