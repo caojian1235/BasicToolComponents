@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BasicToolComponents'
-  s.version          = '0.3.3'
+  s.version          = '0.3.4'
   s.summary          = '基本组件'
 
 # This description is used to generate tags and improve search results.
@@ -83,7 +83,7 @@ EOS
   s.dependency 'GKNavigationBar'
   s.dependency 'MJRefresh'
   s.dependency 'LYEmptyView'
-  s.dependency 'Masonry', '~> 1.1.0'
+  s.dependency 'Masonry'
   s.dependency 'SDWebImage'
   s.dependency 'MBProgressHUD'
   s.dependency 'YYKit'
