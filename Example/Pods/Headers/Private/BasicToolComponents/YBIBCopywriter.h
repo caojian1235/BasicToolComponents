@@ -1,1 +1,0 @@
-../../../../../BasicToolComponents/Classes/YBImageBrowser/Helper/YBIBCopywriter.h

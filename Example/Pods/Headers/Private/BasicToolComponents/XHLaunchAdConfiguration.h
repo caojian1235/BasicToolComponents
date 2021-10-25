@@ -1,1 +1,0 @@
-../../../../../BasicToolComponents/Classes/XHLaunchAd/XHLaunchAd/XHLaunchAdConfiguration.h

@@ -1,6 +1,6 @@
 {
   "name": "BasicToolComponents",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "summary": "基本组件",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/caojian1235/BasicToolComponents",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/caojian1235/BasicToolComponents.git",
-    "tag": "0.2.2"
+    "tag": "0.2.3"
   },
   "platforms": {
     "ios": "9.0"
@@ -41,46 +41,8 @@
   "prefix_header_contents": "#ifdef __OBJC__\n\n#import <GKNavigationBar/GKNavigationBar.h>\n#import <MJRefresh/MJRefresh.h>\n#import <LYEmptyView/LYEmptyViewHeader.h>\n#import <Masonry/Masonry.h>\n#import <MBProgressHUD/MBProgressHUD.h>\n#import <YYKit/YYKit.h>\n#import \"YSKDefineMacro.pch\"\n#import \"UIButton+Extra.h\"\n#import \"UILabel+Extra.h\"\n#import \"UITextView+Extra.h\"\n#import \"NSString+Extra.h\"\n#import \"UIImage+Extra.h\"\n#import \"UIView+Extra.h\"\n#import \"UIView+TrackPoint.h\"\n#import \"UIScrollView+Extension.h\"\n#import \"ZSZHUD.h\"\n\n#endif /* __OBJC__*/",
   "subspecs": [
     {
-      "name": "Category",
-      "source_files": "BasicToolComponents/Classes/Category/**/*",
-      "dependencies": {
-        "YYKit": [
-
-        ]
-      }
-    },
-    {
-      "name": "Alert",
-      "source_files": "BasicToolComponents/Classes/Alert/**/*"
-    },
-    {
-      "name": "BaseVC",
-      "source_files": "BasicToolComponents/Classes/BaseVC/**/*",
-      "dependencies": {
-        "GKNavigationBar": [
-
-        ]
-      }
-    },
-    {
-      "name": "NSLogHelper",
-      "source_files": "BasicToolComponents/Classes/NSLogHelper/**/*"
-    },
-    {
-      "name": "XHLaunchAd",
-      "source_files": "BasicToolComponents/Classes/XHLaunchAd/**/*"
-    },
-    {
-      "name": "YBImageBrowser",
-      "source_files": "BasicToolComponents/Classes/YBImageBrowser/**/*"
-    },
-    {
       "name": "ZZJsonToModel",
       "source_files": "BasicToolComponents/Classes/ZZJsonToModel/**/*"
-    },
-    {
-      "name": "Loading",
-      "source_files": "BasicToolComponents/Classes/Loading/**/*"
     }
   ]
 }
