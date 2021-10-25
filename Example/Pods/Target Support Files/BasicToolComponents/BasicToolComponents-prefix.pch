@@ -12,11 +12,7 @@
 
 #ifdef __OBJC__
 
-#import <GKNavigationBar/GKNavigationBar.h>
-#import <MJRefresh/MJRefresh.h>
-#import <LYEmptyView/LYEmptyViewHeader.h>
-#import <Masonry/Masonry.h>
-#import <MBProgressHUD/MBProgressHUD.h>
-#import <YYKit/YYKit.h>
+
+#import "YSKDefineMacro.pch"
 
 #endif /* __OBJC__*/
