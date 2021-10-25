@@ -67,6 +67,7 @@ TODO: Add long description of the pod here.
 #      loading.source_files = 'BasicToolComponents/Classes/Loading/**/*'
 #
 #    end
+  s.dependency 'GKNavigationBar'
   s.dependency 'MJRefresh'
   s.dependency 'LYEmptyView'
   s.dependency 'Masonry', '~> 1.1.0'
@@ -87,15 +88,6 @@ TODO: Add long description of the pod here.
   #import <MBProgressHUD/MBProgressHUD.h>
   #import <YYKit/YYKit.h>
   #import "YSKDefineMacro.pch"
-  #import "UIButton+Extra.h"
-  #import "UILabel+Extra.h"
-  #import "UITextView+Extra.h"
-  #import "NSString+Extra.h"
-  #import "UIImage+Extra.h"
-  #import "UIView+Extra.h"
-  #import "UIView+TrackPoint.h"
-  #import "UIScrollView+Extension.h"
-  #import "ZSZHUD.h"
 
   #endif /* __OBJC__*/
 

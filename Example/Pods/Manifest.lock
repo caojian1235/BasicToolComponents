@@ -1,6 +1,7 @@
 PODS:
   - BasicToolComponents (0.2.4):
     - BasicToolComponents/ZZJsonToModel (= 0.2.4)
+    - GKNavigationBar
     - LYEmptyView
     - Masonry (~> 1.1.0)
     - MBProgressHUD
@@ -8,6 +9,7 @@ PODS:
     - SDWebImage
     - YYKit
   - BasicToolComponents/ZZJsonToModel (0.2.4):
+    - GKNavigationBar
     - LYEmptyView
     - Masonry (~> 1.1.0)
     - MBProgressHUD
@@ -50,7 +52,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BasicToolComponents: 291082d3d6e343c1e0882d761091695c649d6986
+  BasicToolComponents: 4476e779071e83f171413a4d02705c8e98b2912b
   GKNavigationBar: 777b10cebaa1026d9aa392859c42e389895eb744
   LYEmptyView: b6d418cfa38b78df0cf243f9a9c25ccbdc399922
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
