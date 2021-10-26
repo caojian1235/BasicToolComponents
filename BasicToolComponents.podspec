@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BasicToolComponents'
-  s.version          = '0.3.6'
+  s.version          = '0.3.7'
   s.summary          = '基本组件'
 
 # This description is used to generate tags and improve search results.
@@ -89,14 +89,14 @@ TODO: Add long description of the pod here.
   #   'BasicToolComponents' => ['BasicToolComponents/Assets/*.png']
   # }
 #  s.prefix_header_contents = '#import "YSKDefineMacro.pch"'
-s.prefix_header_contents = <<-EOS
-#ifdef __OBJC__
-
-#import "YSKDefineMacro.pch"
-
-
-#endif /* __OBJC__*/
-EOS
+#s.prefix_header_contents = <<-EOS
+##ifdef __OBJC__
+#
+##import "YSKDefineMacro.pch"
+#
+#
+##endif /* __OBJC__*/
+#EOS
 
   # s.prefix_header_contents ='#import "BasicToolComponents.pch"'
   # s.public_header_files = 'Pod/Classes/**/*.h'

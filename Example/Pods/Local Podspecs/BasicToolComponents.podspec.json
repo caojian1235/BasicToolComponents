@@ -1,6 +1,6 @@
 {
   "name": "BasicToolComponents",
-  "version": "0.3.6",
+  "version": "0.3.7",
   "summary": "基本组件",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/caojian1235/BasicToolComponents",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/caojian1235/BasicToolComponents.git",
-    "tag": "0.3.6"
+    "tag": "0.3.7"
   },
   "platforms": {
     "ios": "9.0"
@@ -27,7 +27,6 @@
 
     ]
   },
-  "prefix_header_contents": "#ifdef __OBJC__\n\n#import \"YSKDefineMacro.pch\"\n\n\n#endif /* __OBJC__*/",
   "subspecs": [
     {
       "name": "Category",
