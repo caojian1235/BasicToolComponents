@@ -1,6 +1,6 @@
 {
   "name": "BasicToolComponents",
-  "version": "0.3.4",
+  "version": "0.3.5",
   "summary": "基本组件",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/caojian1235/BasicToolComponents",
@@ -13,7 +13,7 @@
   },
   "source": {
     "git": "https://github.com/caojian1235/BasicToolComponents.git",
-    "tag": "0.3.4"
+    "tag": "0.3.5"
   },
   "platforms": {
     "ios": "9.0"
@@ -22,34 +22,107 @@
   "resources": [
     "BasicToolComponents/Assets/*"
   ],
-  "prefix_header_contents": "#ifdef __OBJC__\n\n#import \"YSKDefineMacro.pch\"\n\n\n#endif /* __OBJC__*/",
   "dependencies": {
-    "GKNavigationBar": [
-
-    ],
-    "MJRefresh": [
-
-    ],
-    "LYEmptyView": [
-
-    ],
-    "Masonry": [
-
-    ],
     "SDWebImage": [
-
-    ],
-    "MBProgressHUD": [
-
-    ],
-    "YYKit": [
 
     ]
   },
+  "prefix_header_contents": "#ifdef __OBJC__\n\n#import \"YSKDefineMacro.pch\"\n\n\n#endif /* __OBJC__*/",
   "subspecs": [
+    {
+      "name": "Category",
+      "source_files": "BasicToolComponents/Classes/Category/**/*",
+      "dependencies": {
+        "YYKit": [
+
+        ],
+        "BasicToolComponents/Macro": [
+
+        ]
+      }
+    },
+    {
+      "name": "Macro",
+      "source_files": "BasicToolComponents/Classes/Macro/**/*"
+    },
+    {
+      "name": "Alert",
+      "source_files": "BasicToolComponents/Classes/Alert/**/*",
+      "dependencies": {
+        "BasicToolComponents/Macro": [
+
+        ],
+        "BasicToolComponents/Category": [
+
+        ],
+        "Masonry": [
+
+        ]
+      }
+    },
+    {
+      "name": "BaseVC",
+      "source_files": "BasicToolComponents/Classes/BaseVC/**/*",
+      "dependencies": {
+        "GKNavigationBar": [
+
+        ],
+        "MJRefresh": [
+
+        ],
+        "LYEmptyView": [
+
+        ],
+        "Masonry": [
+
+        ],
+        "MBProgressHUD": [
+
+        ],
+        "BasicToolComponents/Loading": [
+
+        ],
+        "BasicToolComponents/Alert": [
+
+        ],
+        "BasicToolComponents/Macro": [
+
+        ],
+        "BasicToolComponents/Category": [
+
+        ]
+      }
+    },
+    {
+      "name": "NSLogHelper",
+      "source_files": "BasicToolComponents/Classes/NSLogHelper/**/*"
+    },
+    {
+      "name": "XHLaunchAd",
+      "source_files": "BasicToolComponents/Classes/XHLaunchAd/**/*"
+    },
+    {
+      "name": "YBImageBrowser",
+      "source_files": "BasicToolComponents/Classes/YBImageBrowser/**/*"
+    },
     {
       "name": "ZZJsonToModel",
       "source_files": "BasicToolComponents/Classes/ZZJsonToModel/**/*"
+    },
+    {
+      "name": "Loading",
+      "source_files": "BasicToolComponents/Classes/Loading/**/*",
+      "dependencies": {
+        "MBProgressHUD": [
+
+        ],
+        "BasicToolComponents/Category": [
+
+        ],
+        "YYKit": [
+
+        ]
+      }
     }
   ]
 }

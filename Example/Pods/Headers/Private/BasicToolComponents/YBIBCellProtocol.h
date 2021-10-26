@@ -1,0 +1,1 @@
+../../../../../BasicToolComponents/Classes/YBImageBrowser/Protocol/YBIBCellProtocol.h

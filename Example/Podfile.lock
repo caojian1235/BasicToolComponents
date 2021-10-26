@@ -1,21 +1,50 @@
 PODS:
-  - BasicToolComponents (0.3.4):
-    - BasicToolComponents/ZZJsonToModel (= 0.3.4)
+  - BasicToolComponents (0.3.5):
+    - BasicToolComponents/Alert (= 0.3.5)
+    - BasicToolComponents/BaseVC (= 0.3.5)
+    - BasicToolComponents/Category (= 0.3.5)
+    - BasicToolComponents/Loading (= 0.3.5)
+    - BasicToolComponents/Macro (= 0.3.5)
+    - BasicToolComponents/NSLogHelper (= 0.3.5)
+    - BasicToolComponents/XHLaunchAd (= 0.3.5)
+    - BasicToolComponents/YBImageBrowser (= 0.3.5)
+    - BasicToolComponents/ZZJsonToModel (= 0.3.5)
+    - SDWebImage
+  - BasicToolComponents/Alert (0.3.5):
+    - BasicToolComponents/Category
+    - BasicToolComponents/Macro
+    - Masonry
+    - SDWebImage
+  - BasicToolComponents/BaseVC (0.3.5):
+    - BasicToolComponents/Alert
+    - BasicToolComponents/Category
+    - BasicToolComponents/Loading
+    - BasicToolComponents/Macro
     - GKNavigationBar
     - LYEmptyView
     - Masonry
     - MBProgressHUD
     - MJRefresh
     - SDWebImage
-    - YYKit
-  - BasicToolComponents/ZZJsonToModel (0.3.4):
-    - GKNavigationBar
-    - LYEmptyView
-    - Masonry
-    - MBProgressHUD
-    - MJRefresh
+  - BasicToolComponents/Category (0.3.5):
+    - BasicToolComponents/Macro
     - SDWebImage
     - YYKit
+  - BasicToolComponents/Loading (0.3.5):
+    - BasicToolComponents/Category
+    - MBProgressHUD
+    - SDWebImage
+    - YYKit
+  - BasicToolComponents/Macro (0.3.5):
+    - SDWebImage
+  - BasicToolComponents/NSLogHelper (0.3.5):
+    - SDWebImage
+  - BasicToolComponents/XHLaunchAd (0.3.5):
+    - SDWebImage
+  - BasicToolComponents/YBImageBrowser (0.3.5):
+    - SDWebImage
+  - BasicToolComponents/ZZJsonToModel (0.3.5):
+    - SDWebImage
   - GKNavigationBar (1.6.0):
     - GKNavigationBar/GestureHandle (= 1.6.0)
     - GKNavigationBar/NavigationBar (= 1.6.0)
@@ -52,7 +81,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BasicToolComponents: fbfc107aba4119ed1f8192fe91d618c513732a2f
+  BasicToolComponents: 5a489c3288e80e3bd4fc3aefa48e1d2823f27027
   GKNavigationBar: 777b10cebaa1026d9aa392859c42e389895eb744
   LYEmptyView: b6d418cfa38b78df0cf243f9a9c25ccbdc399922
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
