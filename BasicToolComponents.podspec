@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BasicToolComponents'
-  s.version          = '0.3.9'
+  s.version          = '0.4.0'
   s.summary          = '基本组件'
 
 # This description is used to generate tags and improve search results.
@@ -85,16 +85,16 @@ TODO: Add long description of the pod here.
       loading.dependency 'BasicToolComponents/Category'
       loading.dependency 'YYKit'
     end
-  s.subspec 'ShareView' do |shareview|
-      shareview.source_files = 'BasicToolComponents/Classes/ShareView/**/*'
-      shareview.dependency 'MBProgressHUD'
-      shareview.dependency 'BasicToolComponents/Category'
-      shareview.dependency 'YYKit'
-      shareview.dependency 'Toast'
-      shareview.dependency 'Masonry'
-      shareview.dependency 'WechatOpenSDK'
-      shareview.dependency 'BasicToolComponents/Macro'
-    end
+#  s.subspec 'ShareView' do |shareview|
+#      shareview.source_files = 'BasicToolComponents/Classes/ShareView/**/*'
+#      shareview.dependency 'MBProgressHUD'
+#      shareview.dependency 'BasicToolComponents/Category'
+#      shareview.dependency 'YYKit'
+#      shareview.dependency 'Toast'
+#      shareview.dependency 'Masonry'
+#      shareview.dependency 'WechatOpenSDK'
+#      shareview.dependency 'BasicToolComponents/Macro'
+#    end
  
   # s.resource_bundles = {
   #   'BasicToolComponents' => ['BasicToolComponents/Assets/*.png']
