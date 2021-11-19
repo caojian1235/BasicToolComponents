@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BasicToolComponents'
-  s.version          = '0.4.2'
+  s.version          = '0.4.3'
   s.summary          = '基本组件'
 
 # This description is used to generate tags and improve search results.
@@ -30,7 +30,7 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-#  s.source_files = 'BasicToolComponents/Classes/**/*'
+  s.source_files = 'BasicToolComponents/Classes/**/*'
   s.resources = ['BasicToolComponents/Assets/*']
   s.subspec 'Category' do |category|
         category.source_files = 'BasicToolComponents/Classes/Category/**/*'
@@ -47,43 +47,43 @@ TODO: Add long description of the pod here.
       alert.dependency 'BasicToolComponents/Category'
       alert.dependency 'Masonry'
     end
-  s.subspec 'BaseVC' do |baseVC|
-      baseVC.source_files = 'BasicToolComponents/Classes/BaseVC/**/*'
-      baseVC.dependency 'GKNavigationBar'
-      baseVC.dependency 'MJRefresh'
-      baseVC.dependency 'LYEmptyView'
-      baseVC.dependency 'Masonry'
-      baseVC.dependency 'MBProgressHUD'
-      baseVC.dependency 'BasicToolComponents/Loading'
-      baseVC.dependency 'BasicToolComponents/Alert'
-      baseVC.dependency 'BasicToolComponents/Macro'
-      baseVC.dependency 'BasicToolComponents/Category'
-    end
-  
-  s.subspec 'NSLogHelper' do |nsLogHelper|
-      nsLogHelper.source_files = 'BasicToolComponents/Classes/NSLogHelper/**/*'
-
-    end
-  
-  s.subspec 'XHLaunchAd' do |xhLaunchAd|
-      xhLaunchAd.source_files = 'BasicToolComponents/Classes/XHLaunchAd/**/*'
-
-    end
-
-  s.subspec 'YBImageBrowser' do |ybimageBrowser|
-      ybimageBrowser.source_files = 'BasicToolComponents/Classes/YBImageBrowser/**/*'
-      s.dependency 'SDWebImage'
-    end
-  s.subspec 'ZZJsonToModel' do |zzjsonToModel|
-      zzjsonToModel.source_files = 'BasicToolComponents/Classes/ZZJsonToModel/**/*'
-      
-    end
-  s.subspec 'Loading' do |loading|
-      loading.source_files = 'BasicToolComponents/Classes/Loading/**/*'
-      loading.dependency 'MBProgressHUD'
-      loading.dependency 'BasicToolComponents/Category'
-      loading.dependency 'YYKit'
-    end
+#  s.subspec 'BaseVC' do |baseVC|
+#      baseVC.source_files = 'BasicToolComponents/Classes/BaseVC/**/*'
+#      baseVC.dependency 'GKNavigationBar'
+#      baseVC.dependency 'MJRefresh'
+#      baseVC.dependency 'LYEmptyView'
+#      baseVC.dependency 'Masonry'
+#      baseVC.dependency 'MBProgressHUD'
+#      baseVC.dependency 'BasicToolComponents/Loading'
+#      baseVC.dependency 'BasicToolComponents/Alert'
+#      baseVC.dependency 'BasicToolComponents/Macro'
+#      baseVC.dependency 'BasicToolComponents/Category'
+#    end
+#
+#  s.subspec 'NSLogHelper' do |nsLogHelper|
+#      nsLogHelper.source_files = 'BasicToolComponents/Classes/NSLogHelper/**/*'
+#
+#    end
+#
+#  s.subspec 'XHLaunchAd' do |xhLaunchAd|
+#      xhLaunchAd.source_files = 'BasicToolComponents/Classes/XHLaunchAd/**/*'
+#
+#    end
+#
+#  s.subspec 'YBImageBrowser' do |ybimageBrowser|
+#      ybimageBrowser.source_files = 'BasicToolComponents/Classes/YBImageBrowser/**/*'
+#      s.dependency 'SDWebImage'
+#    end
+#  s.subspec 'ZZJsonToModel' do |zzjsonToModel|
+#      zzjsonToModel.source_files = 'BasicToolComponents/Classes/ZZJsonToModel/**/*'
+#
+#    end
+#  s.subspec 'Loading' do |loading|
+#      loading.source_files = 'BasicToolComponents/Classes/Loading/**/*'
+#      loading.dependency 'MBProgressHUD'
+#      loading.dependency 'BasicToolComponents/Category'
+#      loading.dependency 'YYKit'
+#    end
  
   # s.resource_bundles = {
   #   'BasicToolComponents' => ['BasicToolComponents/Assets/*.png']

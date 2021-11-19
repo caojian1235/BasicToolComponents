@@ -306,13 +306,11 @@
 				"${PODS_ROOT}/Target Support Files/Pods-BasicToolComponents_Example/Pods-BasicToolComponents_Example-resources.sh",
 				"${PODS_ROOT}/../../BasicToolComponents/Assets/mine_share_circle.png",
 				"${PODS_ROOT}/GKNavigationBar/GKNavigationBar/NavigationBar/GKNavigationBar.bundle",
-				"${PODS_ROOT}/MJRefresh/MJRefresh/MJRefresh.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/mine_share_circle.png",
 				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/GKNavigationBar.bundle",
-				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/MJRefresh.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
