@@ -1,22 +1,22 @@
 PODS:
-  - BasicToolComponents (0.3.8):
-    - BasicToolComponents/Alert (= 0.3.8)
-    - BasicToolComponents/BaseVC (= 0.3.8)
-    - BasicToolComponents/Category (= 0.3.8)
-    - BasicToolComponents/Loading (= 0.3.8)
-    - BasicToolComponents/Macro (= 0.3.8)
-    - BasicToolComponents/NSLogHelper (= 0.3.8)
-    - BasicToolComponents/ShareView (= 0.3.8)
-    - BasicToolComponents/XHLaunchAd (= 0.3.8)
-    - BasicToolComponents/YBImageBrowser (= 0.3.8)
-    - BasicToolComponents/ZZJsonToModel (= 0.3.8)
+  - BasicToolComponents (0.3.9):
+    - BasicToolComponents/Alert (= 0.3.9)
+    - BasicToolComponents/BaseVC (= 0.3.9)
+    - BasicToolComponents/Category (= 0.3.9)
+    - BasicToolComponents/Loading (= 0.3.9)
+    - BasicToolComponents/Macro (= 0.3.9)
+    - BasicToolComponents/NSLogHelper (= 0.3.9)
+    - BasicToolComponents/ShareView (= 0.3.9)
+    - BasicToolComponents/XHLaunchAd (= 0.3.9)
+    - BasicToolComponents/YBImageBrowser (= 0.3.9)
+    - BasicToolComponents/ZZJsonToModel (= 0.3.9)
     - SDWebImage
-  - BasicToolComponents/Alert (0.3.8):
+  - BasicToolComponents/Alert (0.3.9):
     - BasicToolComponents/Category
     - BasicToolComponents/Macro
     - Masonry
     - SDWebImage
-  - BasicToolComponents/BaseVC (0.3.8):
+  - BasicToolComponents/BaseVC (0.3.9):
     - BasicToolComponents/Alert
     - BasicToolComponents/Category
     - BasicToolComponents/Loading
@@ -27,20 +27,20 @@ PODS:
     - MBProgressHUD
     - MJRefresh
     - SDWebImage
-  - BasicToolComponents/Category (0.3.8):
+  - BasicToolComponents/Category (0.3.9):
     - BasicToolComponents/Macro
     - SDWebImage
     - YYKit
-  - BasicToolComponents/Loading (0.3.8):
+  - BasicToolComponents/Loading (0.3.9):
     - BasicToolComponents/Category
     - MBProgressHUD
     - SDWebImage
     - YYKit
-  - BasicToolComponents/Macro (0.3.8):
+  - BasicToolComponents/Macro (0.3.9):
     - SDWebImage
-  - BasicToolComponents/NSLogHelper (0.3.8):
+  - BasicToolComponents/NSLogHelper (0.3.9):
     - SDWebImage
-  - BasicToolComponents/ShareView (0.3.8):
+  - BasicToolComponents/ShareView (0.3.9):
     - BasicToolComponents/Category
     - BasicToolComponents/Macro
     - Masonry
@@ -49,11 +49,11 @@ PODS:
     - Toast
     - WechatOpenSDK
     - YYKit
-  - BasicToolComponents/XHLaunchAd (0.3.8):
+  - BasicToolComponents/XHLaunchAd (0.3.9):
     - SDWebImage
-  - BasicToolComponents/YBImageBrowser (0.3.8):
+  - BasicToolComponents/YBImageBrowser (0.3.9):
     - SDWebImage
-  - BasicToolComponents/ZZJsonToModel (0.3.8):
+  - BasicToolComponents/ZZJsonToModel (0.3.9):
     - SDWebImage
   - GKNavigationBar (1.6.0):
     - GKNavigationBar/GestureHandle (= 1.6.0)
@@ -95,7 +95,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BasicToolComponents: 49110bb6551f95bec40613797f05e2f537c29ec3
+  BasicToolComponents: a0d384b417d6e57ab52211ebd12ec612c421fdac
   GKNavigationBar: 777b10cebaa1026d9aa392859c42e389895eb744
   LYEmptyView: b6d418cfa38b78df0cf243f9a9c25ccbdc399922
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201

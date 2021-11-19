@@ -8,11 +8,11 @@
 
 #import "DNShareSheetView.h"
 #import "YSKDefineMacro.pch"
-#import <Masonry/Masonry.h>
+#import "Masonry.h"
 #import "UIButton+Extra.h"
-#import <Toast/Toast.h>
-#import <WechatOpenSDK/WXApi.h>
-#import <YYKit/YYKit.h>
+#import "Toast.h"
+#import "WXApi.h"
+#import "YYKit.h"
 @interface DNShareSheetView ()
 
 @property (nonatomic, strong) UIView   *contentView;
