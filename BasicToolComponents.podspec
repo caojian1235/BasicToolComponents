@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BasicToolComponents'
-  s.version          = '0.4.5'
+  s.version          = '0.4.6'
   s.summary          = '基本组件'
 
 # This description is used to generate tags and improve search results.
@@ -44,12 +44,12 @@ TODO: Add long description of the pod here.
         
     end
 
-  s.subspec 'Alert' do |alert|
-      alert.source_files = 'BasicToolComponents/Classes/Alert/**/*'
-      alert.dependency 'BasicToolComponents/Macro'
-      alert.dependency 'BasicToolComponents/Category'
-      alert.dependency 'Masonry'
-    end
+#  s.subspec 'Alert' do |alert|
+#      alert.source_files = 'BasicToolComponents/Classes/Alert/**/*'
+#      alert.dependency 'BasicToolComponents/Macro'
+#      alert.dependency 'BasicToolComponents/Category'
+#      alert.dependency 'Masonry'
+#    end
 #  s.subspec 'BaseVC' do |baseVC|
 #      baseVC.source_files = 'BasicToolComponents/Classes/BaseVC/**/*'
 #      baseVC.dependency 'GKNavigationBar'
