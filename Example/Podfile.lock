@@ -1,16 +1,16 @@
 PODS:
-  - BasicToolComponents (0.4.3):
-    - BasicToolComponents/Alert (= 0.4.3)
-    - BasicToolComponents/Category (= 0.4.3)
-    - BasicToolComponents/Macro (= 0.4.3)
-  - BasicToolComponents/Alert (0.4.3):
+  - BasicToolComponents (0.4.4):
+    - BasicToolComponents/Alert (= 0.4.4)
+    - BasicToolComponents/Category (= 0.4.4)
+    - BasicToolComponents/Macro (= 0.4.4)
+  - BasicToolComponents/Alert (0.4.4):
     - BasicToolComponents/Category
     - BasicToolComponents/Macro
     - Masonry
-  - BasicToolComponents/Category (0.4.3):
+  - BasicToolComponents/Category (0.4.4):
     - BasicToolComponents/Macro
     - YYKit
-  - BasicToolComponents/Macro (0.4.3)
+  - BasicToolComponents/Macro (0.4.4)
   - GKNavigationBar (1.6.0):
     - GKNavigationBar/GestureHandle (= 1.6.0)
     - GKNavigationBar/NavigationBar (= 1.6.0)
@@ -37,7 +37,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BasicToolComponents: 4d1efe208d35e13980cd7674ecbdac31584d94c3
+  BasicToolComponents: cb5e79098a321b383fa08e3cb88c504c36bb7e28
   GKNavigationBar: 777b10cebaa1026d9aa392859c42e389895eb744
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   YYKit: 7cda43304a8dc3696c449041e2cb3107b4e236e7

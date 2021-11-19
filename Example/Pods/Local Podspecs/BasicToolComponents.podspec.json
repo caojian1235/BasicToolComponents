@@ -1,6 +1,6 @@
 {
   "name": "BasicToolComponents",
-  "version": "0.4.3",
+  "version": "0.4.4",
   "summary": "基本组件",
   "description": "TODO: Add long description of the pod here.",
   "homepage": "https://github.com/caojian1235/BasicToolComponents",
@@ -13,16 +13,19 @@
   },
   "source": {
     "git": "https://github.com/caojian1235/BasicToolComponents.git",
-    "tag": "0.4.3"
+    "tag": "0.4.4"
   },
   "platforms": {
     "ios": "9.0"
   },
-  "source_files": "BasicToolComponents/Classes/**/*",
   "resources": [
     "BasicToolComponents/Assets/*"
   ],
   "subspecs": [
+    {
+      "name": "Macro",
+      "source_files": "BasicToolComponents/Classes/Macro/**/*"
+    },
     {
       "name": "Category",
       "source_files": "BasicToolComponents/Classes/Category/**/*",
@@ -34,10 +37,6 @@
 
         ]
       }
-    },
-    {
-      "name": "Macro",
-      "source_files": "BasicToolComponents/Classes/Macro/**/*"
     },
     {
       "name": "Alert",

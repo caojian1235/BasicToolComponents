@@ -1,1 +1,0 @@
-../../../../../BasicToolComponents/Classes/YBImageBrowser/Base/YBIBScreenRotationHandler.h

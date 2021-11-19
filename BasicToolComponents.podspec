@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BasicToolComponents'
-  s.version          = '0.4.3'
+  s.version          = '0.4.4'
   s.summary          = '基本组件'
 
 # This description is used to generate tags and improve search results.
@@ -30,17 +30,20 @@ TODO: Add long description of the pod here.
 
   s.ios.deployment_target = '9.0'
 
-  s.source_files = 'BasicToolComponents/Classes/**/*'
+#  s.source_files = 'BasicToolComponents/Classes/**/*'
   s.resources = ['BasicToolComponents/Assets/*']
+  
+  s.subspec 'Macro' do |ma|
+      ma.source_files = 'BasicToolComponents/Classes/Macro/**/*'
+    end
+  
   s.subspec 'Category' do |category|
         category.source_files = 'BasicToolComponents/Classes/Category/**/*'
         category.dependency 'YYKit'
         category.dependency 'BasicToolComponents/Macro'
         
     end
-  s.subspec 'Macro' do |ma|
-      ma.source_files = 'BasicToolComponents/Classes/Macro/**/*'
-    end
+
   s.subspec 'Alert' do |alert|
       alert.source_files = 'BasicToolComponents/Classes/Alert/**/*'
       alert.dependency 'BasicToolComponents/Macro'
