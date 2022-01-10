@@ -1,21 +1,21 @@
 PODS:
-  - BasicToolComponents (0.4.7):
-    - BasicToolComponents/Alert (= 0.4.7)
-    - BasicToolComponents/BaseVC (= 0.4.7)
-    - BasicToolComponents/Category (= 0.4.7)
-    - BasicToolComponents/Loading (= 0.4.7)
-    - BasicToolComponents/Macro (= 0.4.7)
-    - BasicToolComponents/NSLogHelper (= 0.4.7)
-    - BasicToolComponents/XHLaunchAd (= 0.4.7)
-    - BasicToolComponents/YBImageBrowser (= 0.4.7)
-    - BasicToolComponents/ZZJsonToModel (= 0.4.7)
+  - BasicToolComponents (0.4.8):
+    - BasicToolComponents/Alert (= 0.4.8)
+    - BasicToolComponents/BaseVC (= 0.4.8)
+    - BasicToolComponents/Category (= 0.4.8)
+    - BasicToolComponents/Loading (= 0.4.8)
+    - BasicToolComponents/Macro (= 0.4.8)
+    - BasicToolComponents/NSLogHelper (= 0.4.8)
+    - BasicToolComponents/XHLaunchAd (= 0.4.8)
+    - BasicToolComponents/YBImageBrowser (= 0.4.8)
+    - BasicToolComponents/ZZJsonToModel (= 0.4.8)
     - SDWebImage
-  - BasicToolComponents/Alert (0.4.7):
+  - BasicToolComponents/Alert (0.4.8):
     - BasicToolComponents/Category
     - BasicToolComponents/Macro
     - Masonry
     - SDWebImage
-  - BasicToolComponents/BaseVC (0.4.7):
+  - BasicToolComponents/BaseVC (0.4.8):
     - BasicToolComponents/Alert
     - BasicToolComponents/Category
     - BasicToolComponents/Loading
@@ -26,24 +26,24 @@ PODS:
     - MBProgressHUD
     - MJRefresh
     - SDWebImage
-  - BasicToolComponents/Category (0.4.7):
+  - BasicToolComponents/Category (0.4.8):
     - BasicToolComponents/Macro
     - SDWebImage
     - YYKit
-  - BasicToolComponents/Loading (0.4.7):
+  - BasicToolComponents/Loading (0.4.8):
     - BasicToolComponents/Category
     - MBProgressHUD
     - SDWebImage
     - YYKit
-  - BasicToolComponents/Macro (0.4.7):
+  - BasicToolComponents/Macro (0.4.8):
     - SDWebImage
-  - BasicToolComponents/NSLogHelper (0.4.7):
+  - BasicToolComponents/NSLogHelper (0.4.8):
     - SDWebImage
-  - BasicToolComponents/XHLaunchAd (0.4.7):
+  - BasicToolComponents/XHLaunchAd (0.4.8):
     - SDWebImage
-  - BasicToolComponents/YBImageBrowser (0.4.7):
+  - BasicToolComponents/YBImageBrowser (0.4.8):
     - SDWebImage
-  - BasicToolComponents/ZZJsonToModel (0.4.7):
+  - BasicToolComponents/ZZJsonToModel (0.4.8):
     - SDWebImage
   - GKNavigationBar (1.6.0):
     - GKNavigationBar/GestureHandle (= 1.6.0)
@@ -81,7 +81,7 @@ EXTERNAL SOURCES:
     :path: "../"
 
 SPEC CHECKSUMS:
-  BasicToolComponents: 60cfa51e076f05981faa5beee1f181874f050896
+  BasicToolComponents: e30506902247f873b2a881bbdd9b549e5fde19b2
   GKNavigationBar: 777b10cebaa1026d9aa392859c42e389895eb744
   LYEmptyView: b6d418cfa38b78df0cf243f9a9c25ccbdc399922
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201

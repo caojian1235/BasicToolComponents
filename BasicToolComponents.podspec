@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'BasicToolComponents'
-  s.version          = '0.4.7'
+  s.version          = '0.4.8'
   s.summary          = '基本组件'
 
 # This description is used to generate tags and improve search results.
@@ -29,10 +29,12 @@ TODO: Add long description of the pod here.
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '9.0'
-
+    
   s.source_files = 'BasicToolComponents/Classes/**/*'
   s.resources = ['BasicToolComponents/Assets/*']
-  
+#  s.resource_bundles = {
+#      'MVVMRAC'=>['MVVMRAC/MVVMRAC/*.{xcassets}']
+#  }
   s.subspec 'Macro' do |ma|
       ma.source_files = 'BasicToolComponents/Classes/Macro/**/*'
     end
