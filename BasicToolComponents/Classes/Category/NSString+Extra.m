@@ -123,21 +123,27 @@
      */
     if (telNumber.length == 11) {
         
-        NSString *MOBILE = @"^1(3[0-9]|4[57]|5[0-35-9]|6[6]|7[05-8]|8[0-9]|9[89])\\d{8}$";
-        // 移动正则
-        NSString *CM_NUM = @"(^1(3[4-9]|4[7]|5[0-27-9]|7[8]|8[2-478]|9[8])\\d{8}$)|(^1705\\d{7}$)";
-        // 联通正则
-        NSString *CU_NUM = @"(^1(3[0-2]|4[5]|5[56]|66|7[56]|8[56])\\d{8}$)|(^1709\\d{7}$)";
-        // 电信正则
-        NSString *CT_NUM = @"(^1(33|49|53|73|77|8[019]|99)\\d{8}$)|(^1700\\d{7}$)";
-        
-        if ([self dn_isValidateByRegex:MOBILE] ||
-            [self dn_isValidateByRegex:CM_NUM] ||
-            [self dn_isValidateByRegex:CU_NUM] ||
-            [self dn_isValidateByRegex:CT_NUM]) {
+//        NSString *MOBILE = @"^1(3[0-9]|4[57]|5[0-35-9]|6[6]|7[05-8]|8[0-9]|9[89])\\d{8}$";
+//        // 移动正则
+//        NSString *CM_NUM = @"(^1(3[4-9]|4[7]|5[0-27-9]|7[8]|8[2-478]|9[8])\\d{8}$)|(^1705\\d{7}$)";
+//        // 联通正则
+//        NSString *CU_NUM = @"(^1(3[0-2]|4[5]|5[56]|66|7[56]|8[56])\\d{8}$)|(^1709\\d{7}$)";
+//        // 电信正则
+//        NSString *CT_NUM = @"(^1(33|49|53|73|77|8[019]|99)\\d{8}$)|(^1700\\d{7}$)";
+//
+//        if ([self dn_isValidateByRegex:MOBILE] ||
+//            [self dn_isValidateByRegex:CM_NUM] ||
+//            [self dn_isValidateByRegex:CU_NUM] ||
+//            [self dn_isValidateByRegex:CT_NUM]) {
+//            return YES;
+//
+//        } else {
+//            return NO;
+//        }
+        NSString *phoneRegex = @"1[3456789]([0-9]){9}";
+        if ([self dn_isValidateByRegex:phoneRegex]) {
             return YES;
-            
-        } else {
+        }else{
             return NO;
         }
     } else {
